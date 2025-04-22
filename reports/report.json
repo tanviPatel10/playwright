@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-everything-to-happen-in-one-day;as-a-user-i-expect-to-home-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "As a user I expect to home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 414802600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on \"home\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1128169500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see \"Testing talk logo\" on the page",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43833700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I should see \"contacts\" page contains text \"Contacts\"",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9244900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72063600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 4
+          },
+          {
+            "name": "@regression",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-expect-everything-to-happen-in-one-day",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I expect everything to happen in one day",
+    "tags": [],
+    "uri": "src\\features\\home-page.feature"
+  }
+]
